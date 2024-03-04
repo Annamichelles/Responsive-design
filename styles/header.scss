@@ -1,11 +1,10 @@
 .header {
-	max-width: 100vw;
+	max-width: 846px;
 	width: 100%;
 	height: 78px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 10%;
     box-sizing: border-box;
     margin-bottom: 100px;
     &__logo {
@@ -24,6 +23,8 @@
 		display: flex;
 		justify-content: flex-end;
 		cursor: pointer;
+		margin-left: auto;
+
 
 		& li {
 		display: inline-block;
