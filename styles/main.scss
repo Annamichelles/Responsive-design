@@ -40,7 +40,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
 	.main-title {
 		font-size: 72px;
@@ -49,8 +49,18 @@
 		font-size: 22px;
 	}
 }
+@media screen and (max-width: 565px) {
 
-@media screen and (max-width: 320px) {
+	.main-title {
+		font-size: 72px;
+	}
+	.second-title {
+		font-size: 18px;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 365px) {
 
 	.main-title {
 		font-size: 36px;
