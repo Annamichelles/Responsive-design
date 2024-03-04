@@ -1,0 +1,31 @@
+.main-title {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 84px;
+	font-style: normal;
+	margin-block: 0px;
+}
+
+.second-title {
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	max-width: 573px;
+	width: 100%;
+	font-family: 'Source sans', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 100;
+	line-height: 34px;
+	text-align: center;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

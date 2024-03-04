@@ -14,11 +14,11 @@
     &__menu {
 		max-width: 350px;
 		width: 100%;
-		color: #2F281E;
+		color: #FFFFFF;
 		font-family: 'Source sans', sans-serif;
 		font-size: 14px;
 		font-style: normal;
-		font-weight: 700;
+		font-weight: 300;
 		line-height: 28px; /* 150% */
 		cursor: pointer;
 		display: flex;
@@ -30,7 +30,7 @@
 		}
 
 		& a {
-		color: #2F281E;
+		color: #FFFFFF;
 		text-decoration: none;
 		}
 	}
@@ -39,18 +39,20 @@
 .services {
 	margin-right: 20px;
 	&:hover {
-		color: $secondary-color;
+		color: #ADADAD;
 	}
 }
 
 .contacts {
+	margin-right: 20px;
 	&:hover {
-		color: $secondary-color;
+		color: #ADADAD;
 	}
 }
 
 .works {
+	margin-right: 20px;
 	&:hover {
-		color: $secondary-color;
+		color: #ADADAD;
 	}
 }
