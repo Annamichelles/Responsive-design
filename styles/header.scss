@@ -19,7 +19,7 @@
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 300;
-		line-height: 28px; /* 150% */
+		line-height: 28px;
 		cursor: pointer;
 		display: flex;
 		justify-content: flex-end;
@@ -54,5 +54,12 @@
 	margin-right: 20px;
 	&:hover {
 		color: #ADADAD;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.services, .contacts, .works {
+		display: none;
 	}
 }

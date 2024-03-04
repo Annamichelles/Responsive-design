@@ -33,7 +33,14 @@
 		 	<h1 class="main-title"> Japan </h1>
 		 	<h3 class="second-title"> Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor. </h3>
 	 	</div>
-	 	<div class="fuji"><img src="images/fuji.png" alt="Black and white picture of mount fuji"></div>
+	 	<div class="fujipics">
+	 		<picture>
+	 			<source media="(min-width: 769px)" srcset="images/fuji.png">
+	 			<source media="(max-width: 768px)" srcset="images/fuji-m.png">
+	 			<source media="(max-width: 320px)" srcset="images/fuji-s.png">
+	 			<img src="images/fuji.png" alt="Black and white picture of mount fuji">
+	 		</picture>
+	 	</div>
  	</div>
 </body>
 </html>

@@ -29,3 +29,35 @@
 	justify-content: center;
 	align-items: center;
 }
+
+@media screen and (min-width: 769px) {
+
+	.main-title {
+		font-size: 84px;
+	}
+	.second-title {
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.main-title {
+		font-size: 72px;
+	}
+	.second-title {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.main-title {
+		font-size: 36px;
+	}
+	.second-title {
+		font-size: 12px;
+		width: 217px;
+		line-height: 18px;
+	}
+}
