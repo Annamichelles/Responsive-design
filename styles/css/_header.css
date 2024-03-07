@@ -1,0 +1,65 @@
+.header {
+  max-width: 846px;
+  width: 100%;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.header__logo {
+  cursor: pointer;
+}
+.header__menu {
+  max-width: 350px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Source sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: auto;
+  align-items: center;
+}
+.header__menu li {
+  display: inline-block;
+}
+.header__menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.services {
+  margin-right: 20px;
+}
+.services:hover {
+  color: #ADADAD;
+}
+
+.contacts {
+  margin-right: 20px;
+}
+.contacts:hover {
+  color: #ADADAD;
+}
+
+.works {
+  margin-right: 20px;
+}
+.works:hover {
+  color: #ADADAD;
+}
+
+@media screen and (max-width: 320px) {
+  .services, .contacts, .works {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

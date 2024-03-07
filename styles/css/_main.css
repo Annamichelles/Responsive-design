@@ -1,0 +1,69 @@
+.main-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 84px;
+  font-style: normal;
+  margin-block: 0px;
+}
+
+.second-title {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  max-width: 573px;
+  width: 100%;
+  font-family: "Source sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 34px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .main-title {
+    font-size: 84px;
+  }
+  .second-title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 72px;
+  }
+  .second-title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .main-title {
+    font-size: 72px;
+  }
+  .second-title {
+    font-size: 18px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .main-title {
+    font-size: 36px;
+  }
+  .second-title {
+    font-size: 12px;
+    width: 217px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
