@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Responsive design</title>
-	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="styles/css/index.css">
 	<link rel="reset" href="styles/reset.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +15,28 @@
 	<script src="https://kit.fontawesome.com/b859aba923.js" crossorigin="anonymous"></script>
 </head>
 <body>
+	<script src="script.js"></script>
 	<header class="header">
- 			<div><a href="./index.html"></a><img class="header__logo" src="images/logo.png" alt="Logo of name Head">
- 			</div>
- 			<div class="header__menu">
-	 			<nav>
-	 				<ul>
-	 					<li><a href="#" class="works">Works</a></li>
-	 					<li><a href="#" class="services">Services</a></li>
-		 				<li><a href="#" class="contacts">Contacts</a></li>
-	 				</ul>
-	 			</nav>
-	 			<i class="fa-solid fa-ellipsis"></i>
- 			</div>
- 	</header>
+		<div><a href="./index.html"></a><img class="header__logo" src="images/logo.png" alt="Logo of name Head"></div>
+	<div class="header__menu">
+		<div class="menu__items">
+		  <a href="#" class="home">Home</a>
+		  <a href="#" class="works">Works</a>
+		  <a href="#" class="services">Services</a>
+		  <a href="#" class="contacts">Contacts</a>
+		</div>
+		<div class="header__menu-mobile">
+			<button onclick="toggleDropdown()" class="fa-solid fa-ellipsis"></button>
+				<div id="dropdown_button" class="menu__items-mobile">
+					<a href="#" class="home">Home</a>
+					  <a href="#" class="works">Works</a>
+					  <a href="#" class="services">Services</a>
+					  <a href="#" class="contacts">Contacts</a>
+				</div>
+		</div>
+	</div>
 
+ 	</header>
  	<div class="main-content">
 	 	<div>
 		 	<h1 class="main-title"> Japan </h1>
