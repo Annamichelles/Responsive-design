@@ -71,11 +71,6 @@ body {
   color: #ADADAD;
 }
 
-.header__menu-mobile {
-  position: relative;
-  display: inline-block;
-}
-
 .fa-ellipsis {
   background-color: #000000;
   color: #FFFFFF;
@@ -92,7 +87,6 @@ body {
 }
 
 .menu__items-mobile {
-  display: none;
   position: absolute;
   background-color: #000000;
   min-width: 160px;
@@ -114,13 +108,30 @@ body {
   color: #ADADAD;
 }
 
+.header__menu-mobile {
+  position: relative;
+  display: block;
+}
+
+@media screen and (max-width: 1550px) {
+  .header__menu-mobile {
+    display: none;
+  }
+}
 @media screen and (max-width: 450px) {
   .menu__items {
+    display: none;
+  }
+  .header__menu-mobile {
+    display: inline-block;
+  }
+  .menu__items-mobile {
     display: none;
   }
 }
 .show {
   display: block;
+  right: auto;
 }
 
 .main-title {
